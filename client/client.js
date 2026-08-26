@@ -1,6 +1,6 @@
 // client/index.js
 import { createElement as h, useState, useEffect } from "react";
-var name = "dsh-desktop-pet";
+var name = "dsh-desktop-companion";
 var inject = ["slots", "connection"];
 var RPC_CHANNEL = "/dsh-desktop-pet";
 var CSS = `

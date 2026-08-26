@@ -1,7 +1,7 @@
 // DSH 桌宠陪伴 · Client 半（静态包源码，esbuild 构建为 client/client.js）
 import { createElement as h, useState, useEffect } from 'react'
 
-const name = 'dsh-desktop-pet'
+const name = 'dsh-desktop-companion'
 const inject = ['slots', 'connection']
 
 const RPC_CHANNEL = '/dsh-desktop-pet'

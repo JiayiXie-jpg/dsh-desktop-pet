@@ -16,7 +16,7 @@
 ## 📦 安装
 
 ```bash
-pnpm add dsh-desktop-pet
+pnpm add dsh-desktop-companion
 ```
 
 然后在 profile 的 `cordis.patch.yml` 里加一行：
@@ -24,7 +24,7 @@ pnpm add dsh-desktop-pet
 ```yaml
 - insert:
     - id: dsh-desktop-pet
-      name: dsh-desktop-pet
+      name: dsh-desktop-companion
 ```
 
 重启 `dsh web`，桌宠就出现在右下角。
