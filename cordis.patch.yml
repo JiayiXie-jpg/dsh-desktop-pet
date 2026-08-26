@@ -1,0 +1,5 @@
+# dsh-desktop-pet bundle patch（dsh.bundle manifest 要求的加载配置）
+# 单包单插件：装一次、加一行，网页右下角就有桌宠。
+- insert:
+    - id: dsh-desktop-pet
+      name: dsh-desktop-pet
