@@ -15,8 +15,6 @@
 
 ## 📦 安装
 
-> 静态 npm 包化进行中；完成后即可：
-
 ```bash
 pnpm add dsh-desktop-pet
 ```
@@ -50,8 +48,12 @@ export DSH_PET_TTS_KEY=你的_语音_API_Key   # seed-tts-2.0 语音合成
 ## 目录结构
 
 ```
-src/host.js     # Host 半：事件监听 + AI 生成 + TTS（动态插件 closure 体）
-src/client.js   # Client 半：悬浮桌宠 UI + 色键抠像（动态插件 closure 体）
+lib/index.js          # Host 半：事件监听 + connection RPC + AI 生成 + TTS
+client/index.js       # Client 半源码：悬浮桌宠 UI + 色键抠像
+client/client.js      # esbuild 构建产物
+cordis.patch.yml      # 组合补丁（注册插件行）
+src/host.js           # 动态插件参考实现（历史版本）
+src/client.js         # 动态插件参考实现（历史版本）
 ```
 
 ## License
